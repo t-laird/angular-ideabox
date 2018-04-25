@@ -1,0 +1,20 @@
+/* styles in src/style directory are applied to the whole page */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  color: #13a89e;
+  text-align: center;
+}
+
+.title span {
+  color: #6d6e71;
+}

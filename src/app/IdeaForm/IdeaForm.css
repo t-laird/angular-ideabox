@@ -1,0 +1,18 @@
+form {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 0px auto;
+}
+
+form input {
+    font-size: 24px;
+    height: 40px;
+}
+
+form input[type="submit"] {
+    background: #13a89e;
+    color: white;
+    border: none;
+}
